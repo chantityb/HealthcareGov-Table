@@ -1,0 +1,37 @@
+h2{
+    color: #00A89D;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+}
+
+table{
+    width: 80% !important;
+    margin: auto;
+}
+
+tr.bg-danger{
+    text-align: center;
+    border-bottom: 4px solid #feb512;
+}
+
+.bg-danger{
+    background-color: #ad0000 !important;
+}
+
+th{
+    color:#fff;
+    
+}
+
+tr{
+    text-align: center;
+}
+
+th.sorted.ascending:after {
+	content: "  \2191";
+}
+
+th.sorted.descending:after {
+	content: " \2193";
+}
